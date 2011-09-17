@@ -1,4 +1,17 @@
 <!DOCTYPE html>   
+<?php
+  $actions = array();
+  // Add actions to print 
+  $actions[] = 'Clear Cache'; 
+  $actions[] = 'run Coder';
+  $actions[] = 'Clear Cache';
+  $actions[] = 'Apply patch';
+  $actions[] = 'Clear Cache';
+  $actions[] = 'call #drupal-support';
+  // Select an action to print
+  $rand_keys = array_rand($actions, 1);
+  $current_action = $actions[$rand_keys];
+?>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
@@ -8,17 +21,18 @@
 	<meta charset="utf-8">
 	<!--[if IE]><![endif]-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title></title>
+	<title>Keep Calm</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="" />
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<!-- !CSS -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-icon" href="/images/keepcalm-badge.png" />
+ 	<!-- !CSS -->
 	<link rel="stylesheet" href="css/style.css?v=1">
-	<!-- Set cookie for adaptive images -->
-  <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; expires=; path=/';</script>
-	<!-- !Modernizr -->
-	<script src="js/modernizr-1.5.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.com/omu1qun.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -31,13 +45,20 @@
 		<section role="main" class="poster">
 		  <em>Keep Calm</em>
 		  <span>and</span>
-		  <em>Clear Cache</em>
+		  <?php print '<em>' . $current_action . '</em>'; ?>
 		</section><!-- /main -->
-		
 		<footer>
       <!-- colophon information goes here eventually -->
 		</footer><!-- /footer -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-	<script>!window.jQuery && document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script>
+    // When ready...
+    window.addEventListener("load",function() {
+      // Set a timeout...
+      setTimeout(function(){
+        // Hide the address bar!
+        window.scrollTo(0, 1);
+      }, 0);
+    });
+  </script>
 </body>
 </html>
