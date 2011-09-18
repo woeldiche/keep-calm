@@ -24,3 +24,28 @@ body {
   display: block;
   margin-bottom: 0.5em;
 }
+
+a, 
+a:link,
+a:visited {
+ text-decoration: none;
+ color: @color-text;
+ margin-bottom: -1px;
+ border-bottom: 1px dotted @color-text;
+}
+
+a:hover,
+a:active {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+a:focus {
+  outline-color: @color-text;
+}
+
+footer {
+  font-size: 70%;
+  font-family: arial, sans-serif;
+  font-weight: 300;
+}

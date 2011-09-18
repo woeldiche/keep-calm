@@ -7,16 +7,13 @@
   $actions[] = 'Clear Cache';
   $actions[] = 'Apply patch';
   $actions[] = 'Clear Cache';
-  $actions[] = 'call #drupal-support';
+  $actions[] = 'call #drupal';
+  $axtions[] = 'use Drush';
   // Select an action to print
   $rand_keys = array_rand($actions, 1);
   $current_action = $actions[$rand_keys];
 ?>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<!--[if IE]><![endif]-->
@@ -48,7 +45,14 @@
 		  <?php print '<em>' . $current_action . '</em>'; ?>
 		</section><!-- /main -->
 		<footer>
-      <!-- colophon information goes here eventually -->
+      <p class="colophon">Keep Calm and Clear Cache by Jesper Wøldiche. E-mail me: <a href="mailto:jesper@woeldiche.dk">jesper@woeldiche.dk</a>.</p>
+      <!-- <ul class="icons">
+        <li><a class="twitter icon" href="" title="Follow me on Twitter"><img src="/images/icon-twitter.png" alt="Follow me on Twitter" /></a></li>
+        <li><a class="linkedin icon" href="" title="Jesper Wøldiche's Linkedin profile"><img src="/images/icon-linkedin.png" alt="Follow me on Twitter" /></a></li>
+        <li><a class="drupal icon" href="" title="My profile on Drupal.org"><img src="/images/drupal-icon.png" alt="Jesper Wøldiche on Drupal.org"/></a></li>
+        <li><a class="github icon" href="" title="Personal projects on github.com"><img src="/images/github-icon.png" alt="Personal projects on Github.com"/></a></li>
+      </ul> -->
+      <p class="legalese"><a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. Royal Druplicon Logo by <a href="http://fourkitchens.com/about/team/todd-ross-nienkerk">Todd Ross Nienkierk.</a></p>
 		</footer><!-- /footer -->
   <script>
     // When ready...
