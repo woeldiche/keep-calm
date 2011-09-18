@@ -25,23 +25,35 @@ body {
   margin-bottom: 0.5em;
 }
 
-a, 
-a:link,
-a:visited {
- text-decoration: none;
- color: @color-text;
- margin-bottom: -1px;
- border-bottom: 1px dotted @color-text;
+.colophon,
+.legalese {
+  a, 
+  a:link,
+  a:visited {
+   text-decoration: none;
+   color: @color-text;
+   margin-bottom: -1px;
+   border-bottom: 1px dotted @color-text;
+  }
+  
+  a:hover,
+  a:active {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  a:focus {
+    outline-color: @color-text;
+  }
 }
 
-a:hover,
-a:active {
-  border-bottom: none;
-  margin-bottom: 0;
+.icon {
+  float: left;
 }
 
-a:focus {
-  outline-color: @color-text;
+.icon img {
+  display: block;
+  border: none;
 }
 
 footer {
@@ -51,6 +63,11 @@ footer {
   font-weight: 300;
 }
 
+.colophon {
+  line-height: 25px;
+}
+
 footer p {
   margin-top: 4px;
+  vertical-align: center;
 }

@@ -45,13 +45,7 @@
 		  <?php print '<em>' . $current_action . '</em>'; ?>
 		</section><!-- /main -->
 		<footer>
-      <p class="colophon">Keep Calm and Clear Cache by Jesper Wøldiche. E-mail me: <a href="mailto:jesper@woeldiche.dk">jesper@woeldiche.dk</a>.</p>
-      <!-- <ul class="icons">
-        <li><a class="twitter icon" href="" title="Follow me on Twitter"><img src="/images/icon-twitter.png" alt="Follow me on Twitter" /></a></li>
-        <li><a class="linkedin icon" href="" title="Jesper Wøldiche's Linkedin profile"><img src="/images/icon-linkedin.png" alt="Follow me on Twitter" /></a></li>
-        <li><a class="drupal icon" href="" title="My profile on Drupal.org"><img src="/images/drupal-icon.png" alt="Jesper Wøldiche on Drupal.org"/></a></li>
-        <li><a class="github icon" href="" title="Personal projects on github.com"><img src="/images/github-icon.png" alt="Personal projects on Github.com"/></a></li>
-      </ul> -->
+      <p class="colophon">Keep Calm and Clear Cache by Jesper Wøldiche. <a href="mailto:jesper@woeldiche.dk">jesper@woeldiche.dk</a>.</p><p class="icons"><a class="twitter icon" href="http://www.twitter.com/woeldiche" title="Follow me on Twitter"><img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow me on Twitter" /></a> <a class="linkedin icon" href="http://dk.linkedin.com/in/woeldiche" title="Jesper Wøldiche's Linkedin profile"><img src="/images/icon-linkedin.png" alt="Linkin Profil" /></a></p>
       <p class="legalese"><a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. Royal Druplicon Logo by <a href="http://fourkitchens.com/about/team/todd-ross-nienkerk">Todd Ross Nienkierk.</a></p>
 		</footer><!-- /footer -->
   <script>
