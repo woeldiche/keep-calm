@@ -20,7 +20,8 @@ body{color:#fcf9e6;font-family:'p22-underground-n6','p22-underground',sans-serif
 a,a:link,a:visited{text-decoration:none;color:#fcf9e6;margin-bottom:-1px;border-bottom:1px dotted #fcf9e6;}
 a:hover,a:active{border-bottom:none;margin-bottom:0;}
 a:focus{outline-color:#fcf9e6;}
-footer{font-size:70%;font-family:arial,sans-serif;font-weight:300;}
+footer{font-size:11px;line-height:15px;font-family:arial,sans-serif;font-weight:300;}
+footer p{margin-top:4px;}
 html,body{background:#c3212c;color:#fcf9e6;}
 body{margin:0 20%;-webkit-transition:0.3s ease-in;-moz-transition:0.3s ease-in;-o-transition:0.3s ease-in;-ms-transition:0.3s ease-in;transition:0.3s ease-in;}
 .logo{text-align:center;display:block;margin:2em auto 3em;width:16.875em;height:auto;-webkit-transition:0.3s ease-in;-moz-transition:0.3s ease-in;-o-transition:0.3s ease-in;-ms-transition:0.3s ease-in;transition:0.3s ease-in;}
