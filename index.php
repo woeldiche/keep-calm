@@ -1,18 +1,5 @@
 <!DOCTYPE html>   
-<?php
-  $actions = array();
-  // Add actions to print 
-  $actions[] = 'Clear Cache'; 
-  $actions[] = 'run Coder';
-  $actions[] = 'Clear Cache';
-  $actions[] = 'Apply patch';
-  $actions[] = 'Clear Cache';
-  $actions[] = 'ask in #drupal';
-  $axtions[] = 'use Drush';
-  // Select an action to print
-  $rand_keys = array_rand($actions, 1);
-  $current_action = $actions[$rand_keys];
-?>
+<?php include_once('includes/logic.inc'); ?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -26,7 +13,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="apple-touch-icon" href="/images/keepcalm-badge.png" />
  	<!-- !CSS -->
-	<link rel="stylesheet" href="css/style.css?v=1">
+	<link rel="stylesheet" href="/css/style.css?v=1">
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
