@@ -1,13 +1,18 @@
 # Keep Calm and Clear Cache
 A tiny web project by Jesper Wøldiche
 
-## Ideas for further development
-### Roll your own
-Allow users to roll their own mottos and have them shown on keepcalm.dk using GET or fragment-identifiers.
+## Version history
+### 1.1 Support for user generated texts
+Users can now show their own sayings by using the patter /and/[my-motto] using dashes for urls. 
 
-A model could be to serve default content (the current content) for the motto, but hide it when javascript is enabled, check for a fragment using the following pattern: http://keepcalm.dk/#/this-is-my-motto and write the motto from the fragment if one is present with js, otherwise show default content.
+### 1.0 Initial version
+Microsite that prints from a list of predefined sayings of the pattern 'Keep Calm and [action]'.
 
-### Reload
+## Roadmap
+### 1.2 GUI for user generated texts
+GUI for generating custom urls by typing in a custom texts.
+
+### Reload with ajax
 Ability to load new motto through ajax without reloading page.
 
 ### Shake to reload
