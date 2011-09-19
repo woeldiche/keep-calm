@@ -7,7 +7,7 @@
   $actions[] = 'Clear Cache';
   $actions[] = 'Apply patch';
   $actions[] = 'Clear Cache';
-  $actions[] = 'call #drupal';
+  $actions[] = 'ask in #drupal';
   $axtions[] = 'use Drush';
   // Select an action to print
   $rand_keys = array_rand($actions, 1);
@@ -46,7 +46,7 @@
 		</section><!-- /main -->
 		<footer>
       <p class="colophon">Keep Calm and Clear Cache by Jesper Wøldiche. <a href="mailto:jesper@woeldiche.dk">jesper@woeldiche.dk</a>.</p><p class="icons"><a class="twitter icon" href="http://www.twitter.com/woeldiche" title="Follow me on Twitter"><img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow me on Twitter" /></a> <a class="linkedin icon" href="http://dk.linkedin.com/in/woeldiche" title="Jesper Wøldiche's Linkedin profile"><img src="/images/icon-linkedin.png" alt="Linkin Profil" /></a></p>
-      <p class="legalese"><a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. Royal Druplicon Logo by <a href="http://fourkitchens.com/about/team/todd-ross-nienkerk">Todd Ross Nienkierk.</a></p>
+      <p class="legalese"><a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. Royal Druplicon Logo by <a href="http://fourkitchens.com/about/team/todd-ross-nienkerk">Todd Ross Nienkerk.</a></p>
 		</footer><!-- /footer -->
   <script>
     // When ready...
