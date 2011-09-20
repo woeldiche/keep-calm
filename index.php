@@ -20,6 +20,16 @@
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.com/omu1qun.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script>
+    // When ready...
+    window.addEventListener("load",function() {
+      // Set a timeout...
+      setTimeout(function(){
+        // Hide the address bar!
+        window.scrollTo(0, 1);
+      }, 0);
+    });
+  </script>
 </head>
 <!-- !Body -->
 <body>
@@ -35,16 +45,6 @@
       <p class="colophon">Keep Calm and Clear Cache by Jesper Wøldiche. <a href="mailto:jesper@woeldiche.dk">jesper@woeldiche.dk</a>.</p><p class="icons"><a class="twitter icon" href="http://www.twitter.com/woeldiche" title="Follow me on Twitter"><img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow me on Twitter" /></a> <a class="linkedin icon" href="http://dk.linkedin.com/in/woeldiche" title="Jesper Wøldiche's Linkedin profile"><img src="/images/icon-linkedin.png" alt="Linkin Profil" /></a></p>
       <p class="legalese"><a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. Royal Druplicon Logo by <a href="http://fourkitchens.com/about/team/todd-ross-nienkerk">Todd Ross Nienkerk.</a></p>
 		</footer><!-- /footer -->
-  <script>
-    // When ready...
-    window.addEventListener("load",function() {
-      // Set a timeout...
-      setTimeout(function(){
-        // Hide the address bar!
-        window.scrollTo(0, 1);
-      }, 0);
-    });
-  </script>
   <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-25792738-1']);
@@ -55,5 +55,9 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
   </script>
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>!window.jQuery && document.write('<script src="/js/jquery.min.js"><\/script>')</script>
+  <script type="text/javascript" src="/js/keepcalm.form.js?v=1"></script>
 </body>
 </html>
