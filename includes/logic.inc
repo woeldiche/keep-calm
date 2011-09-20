@@ -31,7 +31,8 @@ if ($path_parts[0] == 'and' && isset($path_parts[1])) {
   $user_text = $path_parts[1];
   
   // clean up user text for printing
-  $user_motto = str_replace('-',' ',$user_text);
+  $filtered_user_text = htmlspecialchars($user_text);
+  $user_motto = str_replace('-',' ',$filtered_user_text);
   $current_action = $user_motto;  
 } 
   else 
