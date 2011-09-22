@@ -48,3 +48,46 @@ footer p {
 .legalese {
   clear: both;
 }
+
+.poster {
+  padding-bottom: 1.8em;
+}
+
+.actions {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.button {
+  display: inline-block;
+  padding: 2px 8px 0px 28px;
+  line-height: 1.8em;
+  margin: 0 20px;
+}
+
+.action {
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  color: #fff;
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    opacity: 0.5;
+  }
+  
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &.reload {
+    background: url('../images/icon-reload-24px.png') left center no-repeat;
+  }
+  &.create {
+    background: url('../images/icon-add-24px.png') left center no-repeat;
+  }
+
+}

@@ -10,6 +10,10 @@
 
 // Create function for adding generated url to clipboard.
 
+// Generate link for opening form
+  '<a class="button action create" href="#">Roll your own</a>'
+
+
 // Attach events.
   // Open modal box on click
   // Generate url from input

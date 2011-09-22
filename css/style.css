@@ -14,7 +14,7 @@ input,select{vertical-align:middle;}
 label,input[type=button],input[type=submit],button{cursor:pointer;}
 video,img,object,embed,iframe{max-width:100%;}
 body{color:#fcf9e6;font-family:'p22-underground-n6','p22-underground',sans-serif;font-weight:600;font-size:16px;-webkit-text-size-adjust:100%;}
-.poster{text-align:center;text-transform:uppercase;font-size:1.7em;padding-bottom:3em;}
+.poster{text-align:center;text-transform:uppercase;font-size:1.7em;}
 .poster em{font-style:normal;font-size:400%;line-height:1;display:block;}
 .poster span{display:block;margin-bottom:0.5em;}
 .colophon a,.legalese a,.colophon a:link,.legalese a:link,.colophon a:visited,.legalese a:visited{text-decoration:none;color:#fcf9e6;margin-bottom:-1px;border-bottom:1px dotted #fcf9e6;}
@@ -33,4 +33,11 @@ footer p{text-align:center;}
 .colophon,.icons{display:inline-block;text-align:center;vertical-align:top;}
 .icon{padding:0 8px;text-align:center;}
 .legalese{clear:both;}
+.poster{padding-bottom:1.8em;}
+.actions{text-align:center;padding-bottom:3em;}
+.button{display:inline-block;padding:2px 8px 0px 28px;line-height:1.8em;margin:0 20px;}
+.action{-webkit-transition:0.2s ease-in;-moz-transition:0.2s ease-in;-o-transition:0.2s ease-in;-ms-transition:0.2s ease-in;transition:0.2s ease-in;color:#fff;text-decoration:none;}.action:link,.action:visited{opacity:0.5;}
+.action:hover{opacity:0.9;}
+.action.reload{background:url('../images/icon-reload-24px.png') left center no-repeat;}
+.action.create{background:url('../images/icon-add-24px.png') left center no-repeat;}
 @media only screen and (max-width: 999px){body{font-size:15px;}}@media only screen and (max-width: 910px){body{font-size:14px;margin:0 15%;}}@media only screen and (max-width: 780px){body{font-size:13px;margin:0 10%;}}@media only screen and (max-width: 590px){body{font-size:12px;margin:0 10%;} .logo{width:15em;}}@media only screen and (max-width: 450px){body{font-size:11px;margin:0 10%;} .logo{width:13em;}}@media only screen and (max-width: 370px){body{font-size:10px;margin:0 8%;} .logo{width:12em;} .colophon{display:block;line-height:13px;margin-bottom:5px;}}@media only screen and (max-width: 320px){body{font-size:8px;margin:0 5%;} .logo{width:10em;}}
