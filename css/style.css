@@ -30,7 +30,9 @@ body{margin:0 20%;-webkit-transition:0.3s ease-in;-moz-transition:0.3s ease-in;-
 .logo{text-align:center;display:block;margin:2em auto 3em;width:16.875em;height:auto;-webkit-transition:0.3s ease-in;-moz-transition:0.3s ease-in;-o-transition:0.3s ease-in;-ms-transition:0.3s ease-in;transition:0.3s ease-in;}
 footer{text-align:center;padding-bottom:2em;}
 footer p{text-align:center;}
-.colophon,.icons{display:inline-block;text-align:center;vertical-align:top;}
-.icon{padding:0 8px;text-align:center;}
-.legalese{clear:both;}
+.colophon,.icons{display:inline-block;text-align:center;vertical-align:top;overflow:hidden;}
+.icon{padding:2px 4px;display:block;float:left;margin-left:8px;text-align:center;opacity:0.5;background:rgba(255, 255, 255, 0.2);-webkit-transition:0.3s ease-in;-moz-transition:0.3s ease-in;-o-transition:0.3s ease-in;-ms-transition:0.3s ease-in;transition:0.3s ease-in;border-radius:4px;}
+.icon:hover{opacity:1;}
+.legalese,.colophon{clear:both;opacity:0.7;-webkit-transition:0.2s ease-in;-moz-transition:0.2s ease-in;-o-transition:0.2s ease-in;-ms-transition:0.2s ease-in;transition:0.2s ease-in;}
+.legalese:hover,.colophon:hover{opacity:1;}
 @media only screen and (max-width: 999px){body{font-size:15px;}}@media only screen and (max-width: 910px){body{font-size:14px;margin:0 15%;}}@media only screen and (max-width: 780px){body{font-size:13px;margin:0 10%;}}@media only screen and (max-width: 590px){body{font-size:12px;margin:0 10%;} .logo{width:15em;}}@media only screen and (max-width: 450px){body{font-size:11px;margin:0 10%;} .logo{width:13em;}}@media only screen and (max-width: 370px){body{font-size:10px;margin:0 8%;} .logo{width:12em;} .colophon{display:block;line-height:13px;margin-bottom:5px;}}@media only screen and (max-width: 320px){body{font-size:8px;margin:0 5%;} .logo{width:10em;}}

@@ -23,27 +23,34 @@
 </head>
 <!-- !Body -->
 <body>
+
 		<header>
 		  <img class="logo" src="/images/hm-druplicon-270.png" alt="This is joke combining Drupal and part of the Keep Calm And Carry On-posters" />
 		</header>
+
 		<section role="main" class="poster">
 		  <em>Keep Calm</em>
 		  <span>and</span>
 		  <?php print '<em>' . $current_action . '</em>'; ?>
 		</section><!-- /main -->
+
 		<footer>
-      <p class="colophon">Keep Calm and Clear Cache by Jesper Wøldiche. <a href="mailto:jesper@woeldiche.dk">jesper@woeldiche.dk</a>.</p><p class="icons"><a class="twitter icon" href="http://www.twitter.com/woeldiche" title="Follow me on Twitter"><img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow me on Twitter" /></a> <a class="linkedin icon" href="http://dk.linkedin.com/in/woeldiche" title="Jesper Wøldiche's Linkedin profile"><img src="/images/icon-linkedin.png" alt="Linkin Profil" /></a></p>
-      <p class="legalese"><a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. Royal Druplicon Logo by <a href="http://fourkitchens.com/about/team/todd-ross-nienkerk">Todd Ross Nienkerk.</a></p>
+      <p class="colophon">A tiny web project by Jesper Wøldiche</p>
+      <p class="icons">
+        <a class="twitter icon" href="http://www.twitter.com/woeldiche" title="Follow me on Twitter">
+          <img src="/images/twitter-white-20px.png" alt="Follow me on Twitter" />
+        </a>
+        <a class="linkedin icon" href="http://dk.linkedin.com/in/woeldiche" title="Jesper Wøldiche's Linkedin profile">
+          <img src="/images/linkedin-white-20px.png" alt="Linkin Profil" />
+        </a>
+      </p>
+      <p class="legalese">
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Keep Calm &amp; Clear Cache</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://dk.linkedin.com/in/woeldiche" property="cc:attributionName" rel="cc:attributionURL">Jesper Wøldiche</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution ShareAlike 3.0 License</a>.<br />Royal Druplicon Logo by <a xmlns:dct="http://purl.org/dc/terms/" href="http://fourkitchens.com/" rel="dct:source">Four Kitchens</a>.
+      <a href="http://drupal.org">Drupal</a> is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>. 
 		</footer><!-- /footer -->
+
   <script>
-    // When ready...
-    window.addEventListener("load",function() {
-      // Set a timeout...
-      setTimeout(function(){
-        // Hide the address bar!
-        window.scrollTo(0, 1);
-      }, 0);
-    });
+    window.addEventListener("load",function() {setTimeout(function(){window.scrollTo(0,1);},0);});
   </script>
   <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -55,5 +62,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
   </script>
+
 </body>
 </html>

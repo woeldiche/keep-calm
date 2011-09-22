@@ -38,13 +38,41 @@ footer p {
   display: inline-block;
   text-align: center;
   vertical-align: top;
+  overflow: hidden;
 } 
  
 .icon {
-  padding: 0 8px;
+  padding: 2px 4px;
+  display: block;
+  float: left;
+  margin-left: 8px;
   text-align: center;
+  opacity: 0.5;
+  background: rgba(255,255,255,0.2);
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  border-radius: 4px;
 }
 
-.legalese {
+.icon:hover {
+  opacity: 1;
+}
+
+.legalese,
+.colophon {
   clear: both;
+  opacity: 0.7;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.legalese:hover,
+.colophon:hover {
+  opacity: 1;
 }
